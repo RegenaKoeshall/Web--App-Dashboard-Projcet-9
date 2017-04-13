@@ -6,7 +6,7 @@
      position: { my: "right top", at: "left bottom", of: "#notify-button" }
     });
 
-   });
+  
 
 
    var Linectx = document.getElementById("lineChart").getContext("2d");
@@ -238,6 +238,6 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
     });
 });
    
-   
+ }); 
    
 
