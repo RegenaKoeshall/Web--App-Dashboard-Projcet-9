@@ -1,5 +1,5 @@
 //Traffic chart
-
+$(document).ready(function() {
     $('#popup').dialog({
       height: 300,
       width: 400,
@@ -206,7 +206,7 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
  
 
 //Hide bell icon on click
- 
+  $(document).ready(function() {
     $(".bell").click(function() {
         $(".dot").addClass("hidden");
         $(".bell").addClass("hidden");
@@ -236,7 +236,9 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
         }
         return false;
     });
-
+      
+  });
+});
    
    
    
