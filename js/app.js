@@ -1,21 +1,37 @@
 
 //Traffic chart
-<<<<<<< HEAD
- 
-=======
 
->>>>>>> 70ffed3a728c92291b7f2d213e117f532cbd5938
     $('#popup').dialog({
       height: 300,
       width: 400,
      position: { my: "right top", at: "left bottom", of: "#notify-button" }
     });
 
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> 70ffed3a728c92291b7f2d213e117f532cbd5938
+var day;
+switch (new Date().getDay()) {
+    case 0:
+        day = "Sunday";
+        break;
+    case 1:
+        day = "Monday";
+        break;
+    case 2:
+        day = "Tuesday";
+        break;
+    case 3:
+        day = "Wednesday";
+        break;
+    case 4:
+        day = "Thursday";
+        break;
+    case 5:
+        day = "Friday";
+        break;
+    case  6:
+        day = "Saturday";
+}
+document.getElementById("demo").innerHTML = "Today is " + day + ", check out what's going on!";
+ 
 
 
    var Linectx = document.getElementById("lineChart").getContext("2d");
@@ -233,8 +249,12 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
         var message = $("#message"); 
         if ( search.val() === '' || message.val() === '' ){
             alert.css("display", "block");
+             alert.css("textAlign", "center");
+          alert.css("padding", "3px");
            alert.css("background-color", "red");
             alert.css("color", "white");
+            alert.css("marginRight", "20px");
+             alert.css("marginLeft", "20px");      
                 alert.text("Username and message are required!");
         }
         else {
@@ -245,11 +265,11 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
         }
         return false;
     });
-<<<<<<< HEAD
-});
-=======
 
->>>>>>> 70ffed3a728c92291b7f2d213e117f532cbd5938
+
+
+
+
    
 
    
