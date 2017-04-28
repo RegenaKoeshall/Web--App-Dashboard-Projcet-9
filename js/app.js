@@ -1,12 +1,21 @@
+
 //Traffic chart
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 70ffed3a728c92291b7f2d213e117f532cbd5938
     $('#popup').dialog({
       height: 300,
       width: 400,
      position: { my: "right top", at: "left bottom", of: "#notify-button" }
     });
 
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 70ffed3a728c92291b7f2d213e117f532cbd5938
 
 
    var Linectx = document.getElementById("lineChart").getContext("2d");
@@ -206,7 +215,7 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
  
 
 //Hide bell icon on click
-  $(document).ready(function() {
+
     $(".bell").click(function() {
         $(".dot").addClass("hidden");
         $(".bell").addClass("hidden");
@@ -236,7 +245,11 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
         }
         return false;
     });
+<<<<<<< HEAD
 });
+=======
+
+>>>>>>> 70ffed3a728c92291b7f2d213e117f532cbd5938
    
 
    
