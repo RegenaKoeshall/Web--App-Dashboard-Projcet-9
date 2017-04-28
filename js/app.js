@@ -265,11 +265,6 @@ const myDoughnutChart = new Chart(DOUGHNUT, {
         }
         return false;
     });
-
-
-
-
-
    
 
    
